@@ -17,12 +17,14 @@ function BucketDetailPage() {
 			<nav className='nav __shadow--lg'>
 				<div className='container nav__container'>
 					<div className='nav__brand'>
-					<img
+					<Link to='/' className='nav__brand'>
+						<img
 						className='nav__brand-logo'
 						src={brandLogo}
 						alt='Brand Logo'
 						/>
-							<h1 className='nav__brand-name'>Stack Learner</h1>
+						<h1 className='nav__brand-name'>Stack Learner</h1>
+					</Link>
 					</div>
 					<div className='nav__menu nav__menu--right'>
 						<div className='nav__menu-items'>
